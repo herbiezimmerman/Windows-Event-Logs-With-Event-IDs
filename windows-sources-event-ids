@@ -1,0 +1,492 @@
+## Security
+- EID: 1100 - Event logging service shutdown
+- EID: 1101 - Audit events dropped by transport
+- EID: 1102 - Audit log cleared
+- EID: 1104 - Security log is full
+- EID: 1105 - Event log automatic backup
+- EID: 1108 - Event logging service error
+- EID: 4608 - Windows startup
+- EID: 4609 - Windows shutdown
+- EID: 4610 - LSA loaded an authentication package
+- EID: 4611 - A trusted logon process has been registered with the Local Security Authority
+- EID: 4612 - Audit message queuing resoures exhausted (Possible loss of logs)
+- EID: 4614 - LSA loaded notification package
+- EID: 4615 - Invalid use of LPC port
+- EID: 4616 - System time changed
+- EID: 4618 - A monitored security event pattern has occurred
+- EID: 4621 - Administrator recovered system from CrashOnAuditFail
+- EID: 4622 - LSA loaded security package
+- EID: 4624 - Logon success
+- EID: 4625 - Logon failure
+- EID: 4634 - Account logoff
+- EID: 4646 - IKE DoS-prevention mode started
+- EID: 4647 - User initiated logoff
+- EID: 4648 - Explicit logon
+- EID: 4649 - Replay attack was detected
+- EID: 4650 - An IPsec Main Mode security association was established
+- EID: 4651 - An IPsec Main Mode security association was established
+- EID: 4652 - An IPsec Main Mode negotiation failed
+- EID: 4653 - An IPsec Main Mode negotiation failed
+- EID: 4654 - An IPsec Quick Mode negotiation failed
+- EID: 4655 - An IPsec Main Mode security association ended
+- EID: 4656 - Object handle requested
+- EID: 4657 - Registry value modified
+- EID: 4658 - Object handle closed
+- EID: 4659 - Object handle requested with intent to delete
+- EID: 4660 - Object deleted
+- EID: 4661 - Object handle requested
+- EID: 4662 - Object operation performed
+- EID: 4663 - Object access attempt
+- EID: 4664 - Hard link creation attempt
+- EID: 4665 - Application client context creation attempt
+- EID: 4666 - Application attempted an operation
+- EID: 4667 - Application client context deleted
+- EID: 4668 - Application initialized
+- EID: 4670 - Object permissions changed
+- EID: 4671 - Application attempted to access a blocked ordinal through the TBS
+- EID: 4672 - Admin logon
+- EID: 4673 - Privileged service called
+- EID: 4674 - Privileged object operation attempt
+- EID: 4675 - SIDs filtered
+- EID: 4685 - Transaction state changed
+- EID: 4688 - Process created
+- EID: 4689 - Process exited
+- EID: 4690 - Object handle duplication attempt
+- EID: 4691 - Indirect access request to object
+- EID: 4692 - Backup of data protection master key attempt
+- EID: 4693 - Recovery of data protection master key attempt
+- EID: 4694 - Protection of auditable protected data attempt
+- EID: 4695 - Unprotection of auditable protected data attempt
+- EID: 4696 - Primary token assigned to process
+- EID: 4697 - Service installed
+- EID: 4698 - Scheduled task created
+- EID: 4699 - Scheduled task deleted
+- EID: 4700 - Scheduled task enabled
+- EID: 4701 - Scheduled task disabled
+- EID: 4702 - Scheduled task updated
+- EID: 4704 - User right assigned
+- EID: 4705 - User right removed
+- EID: 4706 - New trust created to a domain
+- EID: 4707 - Domain trust removed
+- EID: 4709 - IPsec services started
+- EID: 4710 - IPsec services disabled
+- EID: 4711 - PAStore Engine
+- EID: 4712 - IPsec services encountered a potentially serious failure
+- EID: 4713 - Kerberos policy changed
+- EID: 4714 - Encrypted data recovery policy changed
+- EID: 4715 - Object audit policy (SACL) changed
+- EID: 4716 - Trusted domain information modified
+- EID: 4717 - System security access granted to an account
+- EID: 4718 - System security access removed from an account
+- EID: 4719 - System audit policy changed
+- EID: 4720 - User account created
+- EID: 4722 - User account enabled
+- EID: 4723 - Account password change attempt
+- EID: 4724 - Account password reset attempt
+- EID: 4725 - User account disabled
+- EID: 4726 - User account deleted
+- EID: 4727 - Security-enabled global group created
+- EID: 4728 - Member added to security-enabled global group
+- EID: 4729 - Member removed from security-enabled global group
+- EID: 4730 - Security-enabled global group deleted
+- EID: 4731 - Security-enabled local group created
+- EID: 4732 - Member added to security-enabled local group
+- EID: 4733 - Member removed from security-enabled local group
+- EID: 4734 - Security-enabled local group deleted
+- EID: 4735 - Security-enabled local group changed
+- EID: 4737 - Security-enabled global group changed
+- EID: 4738 - User account changed
+- EID: 4739 - Domain policy changed
+- EID: 4740 - User account locked out
+- EID: 4741 - Computer account created
+- EID: 4742 - Computer account changed
+- EID: 4743 - Computer account deleted
+- EID: 4744 - Security-disabled local group created
+- EID: 4745 - Security-disabled local group changed
+- EID: 4746 - Member added to security-disabled local group
+- EID: 4747 - Member removed from security-disabled local group
+- EID: 4748 - Security-disabled local group deleted
+- EID: 4749 - Security-disabled global group created
+- EID: 4750 - Security-disabled global group changed
+- EID: 4751 - Member added to security-disabled global group
+- EID: 4752 - Member removed from security-disabled global group
+- EID: 4753 - Security-disabled global group deleted
+- EID: 4754 - Security-enabled universal group created
+- EID: 4755 - Security-enabled universal group changed
+- EID: 4756 - Member added to security-enabled universal group
+- EID: 4757 - Member removed from security-enabled universal group
+- EID: 4758 - Security-enabled universal group deleted
+- EID: 4759 - Security-disabled universal group created
+- EID: 4760 - Security-disabled universal group changed
+- EID: 4761 - Member added to security-disabled universal group
+- EID: 4762 - Member removed from security-disabled universal group
+- EID: 4763 - Security-disabled universal group deleted
+- EID: 4764 - Group type changed
+- EID: 4765 - SID history added to account
+- EID: 4766 - Attempt to add SID history to account failed
+- EID: 4767 - User account unlocked
+- EID: 4768 - Kerberos authentication ticket (TGT) requested
+- EID: 4769 - Kerberos service ticket requested
+- EID: 4770 - Kerberos service ticket renewed
+- EID: 4771 - Kerberos pre-authentication failed
+- EID: 4772 - Kerberos authentication ticket request failed
+- EID: 4773 - Kerberos service ticket request failed
+- EID: 4774 - Account mapped for logon
+- EID: 4775 - Account could not be mapped for logon
+- EID: 4776 - DC attempted to validate account credentials
+- EID: 4777 - DC failed to validate account credentials
+- EID: 4778 - Window station session reconnected
+- EID: 4779 - Window station session disconnected
+- EID: 4780 - Administrators group account's ACL set
+- EID: 4781 - Account name changed
+- EID: 4782 - Account password hash accessed
+- EID: 4783 - Basic application group created
+- EID: 4784 - Basic application group changed
+- EID: 4785 - Member added to basic application group
+- EID: 4786 - Member removed from basic application group
+- EID: 4787 - Non-member added to basic application group
+- EID: 4788 - Non-member removed from basic application group
+- EID: 4789 - Basic application group deleted
+- EID: 4790 - LDAP query group created
+- EID: 4791 - Basic application group changed
+- EID: 4792 - LDAP query group deleted
+- EID: 4793 - Password policy checking API called
+- EID: 4794 - Directory Services Restore Mode administrator password set attempt
+- EID: 4800 - Computer locked
+- EID: 4801 - Computer unlocked
+- EID: 4802 - Screen saver started
+- EID: 4803 - Screen saver stopped
+- EID: 4816 - RPC integrity violation when decrypting an incoming message
+- EID: 4817 - Object auditing settings changed
+- EID: 4825 - RDP logon failed
+- EID: 4864 - Namespace collision detected
+- EID: 4865 - Trusted forest information entry added
+- EID: 4866 - Trusted forest information entry removed
+- EID: 4867 - Trusted forest information entry modified
+- EID: 4868 - Certificate manager denied pending certificate request
+- EID: 4869 - Certificate Services received resubmitted certificate request
+- EID: 4870 - Certificate Services revoked certificate
+- EID: 4871 - Certificate Services received request to publish CRL
+- EID: 4872 - Certificate Services published CRL
+- EID: 4873 - Certificate request extension changed
+- EID: 4874 - One or more certificate request attributes changed
+- EID: 4875 - Certificate Services received shutdown request
+- EID: 4876 - Certificate Services backup started
+- EID: 4877 - Certificate Services backup completed
+- EID: 4878 - Certificate Services restore started
+- EID: 4879 - Certificate Services restore completed
+- EID: 4880 - Certificate Services started
+- EID: 4881 - Certificate Services stopped
+- EID: 4882 - Certificate Services security permissions changed
+- EID: 4883 - Certificate Services retrieved archived key
+- EID: 4884 - Certificate Services imported certificate into its database
+- EID: 4885 - Certificate Services audit filter changed
+- EID: 4886 - Certificate Services received certificate request
+- EID: 4887 - Certificate Services approved certificate request and issued certificate
+- EID: 4888 - Certificate Services denied certificate request
+- EID: 4889 - Certificate Services set status of certificate request to pending
+- EID: 4890 - Certificate Services certificate manager settings changed
+- EID: 4891 - Certificate Services configuration entry changed
+- EID: 4892 - Certificate Services property changed
+- EID: 4893 - Certificate Services archived a key
+- EID: 4894 - Certificate Services imported and archived a key
+- EID: 4895 - Certificate Services published CA certificate to AD
+- EID: 4896 - One or more rows have been deleted from the certificate DB
+- EID: 4897 - Role separation enabled
+- EID: 4898 - Certificate Services loaded a template
+- EID: 4899 - Certificate Services template updated
+- EID: 4900 - Certificate Services template security updated
+- EID: 4902 - Per-user audit policy table created
+- EID: 4904 - Attempt to register security event source
+- EID: 4905 - Attempt to unregister security event source
+- EID: 4906 - CrashOnAuditFail value changed
+- EID: 4907 - Auditing settings on object changed
+- EID: 4908 - Special groups logon table modified
+- EID: 4909 - Local policy settings for TBS changed
+- EID: 4910 - Group policy settings for TBS changed
+- EID: 4912 - Per user audit policy changed
+- EID: 4928 - AD replica source naming context established
+- EID: 4929 - AD replica source naming context removed
+- EID: 4930 - AD replica source naming context modified
+- EID: 4931 - AD replica destination naming context modified
+- EID: 4932 - Synchronization of an AD naming context replica has started
+- EID: 4933 - Synchronization of an AD naming context replica has ended
+- EID: 4934 - AD object attributes were replicated
+- EID: 4935 - Replication failure begins
+- EID: 4936 - Replication failure ends
+- EID: 4937 - A lingering object was removed from a replica
+- EID: 4944 - Active policy when firewall started
+- EID: 4945 - Rule listed when firewall started
+- EID: 4946 - Rule added to firewall exception list
+- EID: 4947 - Rule modified in firewall exception list
+- EID: 4948 - Rule deleted from firewall exception list
+- EID: 4949 - Firewall settings restored to default values
+- EID: 4950 - Firewall setting changed
+- EID: 4951 - Firewall rule ignored because major version number was not recognized
+- EID: 4952 - Parts of a firewall rule ignored because its minor version number was not recognized
+- EID: 4953 - Firewall rule could not be parsed
+- EID: 4954 - Firewall Group Policy settings changed New settings applied
+- EID: 4956 - Firewall changed active profile
+- EID: 4957 - Firewall did not apply rule
+- EID: 4958 - Firewall did not apply rule because it referred to items not configured on this computer
+- EID: 4960 - IPsec dropped inbound packet Integrity check failed
+- EID: 4961 - IPsec dropped inbound packet Replay check failed
+- EID: 4962 - IPsec dropped inbound packet Replay check failed
+- EID: 4963 - IPsec dropped inbound cleartext packet that should have been secured
+- EID: 4964 - Special groups assigned to new logon
+- EID: 4965 - IPsec received packet from remote computer with an incorrect SPI
+- EID: 4976 - IPsec received invalid negotiation packet during Main Mode negotiation
+- EID: 4977 - IPsec received invalid negotiation packet during Quick Mode negotiation
+- EID: 4978 - IPsec received invalid negotiation packet during Extended Mode negotiation
+- EID: 4979 - IPsec Main Mode and Extended Mode SAs established
+- EID: 4980 - IPsec Main Mode and Extended Mode SAs established
+- EID: 4981 - IPsec Main Mode and Extended Mode SAs established
+- EID: 4982 - IPsec Main Mode and Extended Mode SAs established
+- EID: 4983 - IPsec Extended Mode negotiation failed
+- EID: 4984 - IPsec Extended Mode negotiation failed
+- EID: 4985 - State of transaction changed
+- EID: 5024 - Firewall service started
+- EID: 5025 - Firewall service stopped
+- EID: 5027 - Firewall service unable to retrieve security policy from local storage
+- EID: 5028 - Firewall service unable to parse new security policy
+- EID: 5029 - Firewall service failed to initialize driver
+- EID: 5030 - Firewall service failed to start
+- EID: 5031 - Firewall service blocked application from accepting incoming connections
+- EID: 5032 - Firewall unable to notify user that it blocked an application from accepting incoming connections
+- EID: 5033 - Firewall driver started
+- EID: 5034 - Firewall driver stopped
+- EID: 5035 - Firewall driver failed to start
+- EID: 5037 - Firewall driver critical runtime error
+- EID: 5038 - Code Integrity invalid file hash
+- EID: 5039 - Registry key virtualized
+- EID: 5040 - IPsec settings changed Authentication Set added
+- EID: 5041 - IPsec settings changed Authentication Set modified
+- EID: 5042 - IPsec settings changed Authentication Set deleted
+- EID: 5043 - IPsec settings changed Connection Security Rule added
+- EID: 5044 - IPsec settings changed Connection Security Rule modified
+- EID: 5045 - IPsec settings changed Connection Security Rule deleted
+- EID: 5046 - IPsec settings changed Crypto Set added
+- EID: 5047 - IPsec settings changed Crypto Set modified
+- EID: 5048 - IPsec settings changed Crypto Set deleted
+- EID: 5049 - IPsec SA deleted
+- EID: 5050 - Attempt to disable firewall using call to INetFwProfile
+- EID: 5051 - A file was virtualized
+- EID: 5056 - A cryptographic self test was performed
+- EID: 5057 - A cryptographic primitive operation failed
+- EID: 5058 - Key file operation
+- EID: 5059 - Key migration operation
+- EID: 5060 - Verification operation failed
+- EID: 5061 - Cryptographic operation
+- EID: 5062 - kernel-mode cryptographic self test performed
+- EID: 5063 - Cryptographic provider operation attempted
+- EID: 5064 - Cryptographic context operation attempted
+- EID: 5065 - Cryptographic context modification attempted
+- EID: 5066 - Cryptographic function operation attempted
+- EID: 5067 - Cryptographic function modification attempted
+- EID: 5068 - Cryptographic function provider operation attempted
+- EID: 5069 - Cryptographic function property operation attempted
+- EID: 5070 - Cryptographic function property operation attempted
+- EID: 5120 - OCSP responder service started
+- EID: 5121 - OCSP responder service stopped
+- EID: 5122 - Configuration entry changed in the OCSP responder service
+- EID: 5123 - Configuration entry changed in the OCSP responder service
+- EID: 5124 - Security setting updated on OCSP responder service
+- EID: 5125 - Request submitted to OCSP responder service
+- EID: 5126 - Signing certificate automatically updated by OCSP responder service
+- EID: 5127 - OCSP revocation provider updated revocation information
+- EID: 5136 - Directory service object modified
+- EID: 5137 - Directory service object created
+- EID: 5138 - Directory service object undeleted
+- EID: 5139 - Directory service object moved
+- EID: 5140 - Network share object accessed
+- EID: 5141 - Directory service object deleted
+- EID: 5142 - Network share object added
+- EID: 5143 - Network share object modified
+- EID: 5144 - Network share object deleted
+- EID: 5145 - Network share object checked for client access
+- EID: 5148 - Firewall has detected a DoS attack and entered a defensive mode; packets associated with this attack will be discarded
+- EID: 5149 - DoS attack subsided and normal processing resumed
+- EID: 5150 - Firewall blocked a packet
+- EID: 5151 - A more restrictive firewall filter blocked a packet
+- EID: 5152 - Firewall blocked a packet
+- EID: 5153 - A more restrictive firewall filter blocked a packet
+- EID: 5154 - Firewall permitted an application to listen for incoming connections
+- EID: 5155 - Firewall blocked an application from listening for incoming connections
+- EID: 5156 - Firewall allowed a connection
+- EID: 5157 - Firewall blocked a connection
+- EID: 5158 - Firewall permitted local port binding
+- EID: 5159 - Firewall blocked local port binding
+- EID: 5168 - SPN check for SMB/SMB2 failed
+- EID: 5376 - Credential Manager credentials backup
+- EID: 5377 - Credential Manager credentials restore from backup
+- EID: 5378 - Requested credentials delegation disallowed by policy
+- EID: 5440 - Callout present when firewall base filtering engine started
+- EID: 5441 - Filter present when firewall base filtering engine started
+- EID: 5442 - Provider present when firewall base filtering engine started
+- EID: 5443 - Provider context present when firewall base filtering engine started
+- EID: 5444 - Sub-layer present when firewall base filtering engine started
+- EID: 5446 - Firewall callout changed
+- EID: 5447 - Firewall filter changed
+- EID: 5448 - Firewall provider changed
+- EID: 5449 - Firewall provider context changed
+- EID: 5450 - Firewall sub-layer changed
+- EID: 5451 - IPsec quick mode SA established
+- EID: 5452 -  IPsec quick mode SA ended
+- EID: 5453 - IPsec negotiation failed because IKEEXT service is not started
+- EID: 5456 - PAStore engine applied AD storage IPsec policy
+- EID: 5457 - PAStore engine failed to apply AD storage IPsec policy
+- EID: 5458 - PAStore engine applied locally cached copy of AD storage IPsec policy
+- EID: 5459 - PAStore engine failed to apply locally cached copy of AD storage IPsec policy
+- EID: 5460 - PAStore engine applied local registry storage IPsec policy
+- EID: 5461 - PAStore engine failed to apply local registry storage IPsec policy
+- EID: 5462 - PAStore engine failed to apply some rules of the active IPsec policy
+- EID: 5463 - PAStore engine polled for changes to the active IPsec policy and detected no changes
+- EID: 5464 - "PAStore engine polled for changes to the active IPsec policy -  detected changes -  and applied them to IPsec Services"
+- EID: 5465 - PAStore engine received a control for forced reloading of IPsec policy and processed the control
+- EID: 5466 - "PAStore engine polled for changes to the AD IPsec policy -  determined that AD cannot be reached -  and will use the cached copy of the AD IPsec policy instead"
+- EID: 5467 - "PAStore engine polled for changes to the AD IPsec policy -  determined that AD can be reached -  and found no changes to the policy"
+- EID: 5468 - "PAStore engine polled for changes to the AD IPsec policy -  determined that AD can be reached -  found changes to the policy -  and applied those changes"
+- EID: 5471 - PAStore engine loaded local storage IPsec policy
+- EID: 5472 - PAStore engine failed to load local storage IPsec policy
+- EID: 5473 - PAStore engine loaded directory storage IPsec policy
+- EID: 5474 - PAStore engine failed to load directory storage IPsec policy
+- EID: 5477 - PAStore engine failed to add quick mode filter
+- EID: 5478 - IPsec services started
+- EID: 5479 - IPsec services shutdown
+- EID: 5480 - IPsec services failed to get the complete list of network interfaces
+- EID: 5483 - IPsec services failed to initialize RPC server and could not be started
+- EID: 5484 - IPsec services shut down due to critical failure
+- EID: 5485 - IPsec services failed to process some IPsec filters on a PnP event for network interfaces
+- EID: 6144 - Security policy GPO applied
+- EID: 6145 - One or more errors occured while processing security policy GPO
+- EID: 6272 - Network Policy Server granted user access
+- EID: 6273 - Network Policy Server denied user access
+- EID: 6274 - Network Policy Server discarded user request
+- EID: 6275 - Network Policy Server discarded user accounting request
+- EID: 6276 - Network Policy Server quarantined a user
+- EID: 6277 - Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy
+- EID: 6278 - Network Policy Server granted full access to a user because the host met the defined health policy
+- EID: 6279 - Network Policy Server locked the user account due to repeated failed authentication attempts
+- EID: 6280 - Network Policy Server unlocked user account
+- EID: 6281 - Code Integrity determined that the page hashes of an image file are not valid 
+- EID: 6400 - BranchCache: Received an incorrectly formatted response while discovering availability of content
+- EID: 6401 - BranchCache: Received invalid data from a peer Data discarded
+- EID: 6402 - BranchCache: The message to the hosted cache offering it data is incorrectly formatted
+- EID: 6403 - BranchCache: The hosted cache sent an incorrectly formatted response to the client
+- EID: 6404 - BranchCache: Hosted cache could not be authenticated using the provisioned SSL certificate
+- EID: 6405 - BranchCache: %2 instance(s) of event id %1 occurred
+- EID: 6406 - %1 registered to firewall to control filtering for the following: %2
+- EID: 6407 - No info
+- EID: 6408 - Registered product %1 failed and firewall is now controlling the filtering for %2
+- EID: 6410 - Code integrity determined that a file does not meet the security requirements to load into a process
+
+## System
+- EID: 6 - New kernel filter driver
+- EID: 27 - KDC encryption type configuration
+- EID: 16 - Kerberos key integrity
+- EID: 19 - Windows Update Installed
+- EID: 104 - Event log cleared
+- EID: 1001 - BSOD
+- EID: 1022 - New MSI file installed
+- EID: 1033 - New MSI file installed
+- EID: 1125 - Group Policy internal error
+- EID: 1127 - Group Policy generic internal error
+- EID: 1129 - Group Policy application failed due to connectivity
+- EID: 7022 - Windows service fail or crash
+- EID: 7023 - Windows service fail or crash
+- EID: 7024 - Windows service fail or crash
+- EID: 7026 - Windows service fail or crash
+- EID: 7031 - Windows service fail or crash
+- EID: 7032 - Windows service fail or crash
+- EID: 7034 - Windows service fail or crash
+- EID: 7035 - The %1 service was successfully sent a %2 control
+- EID: 7036 - The service entered the running/stopped state
+- EID: 7030 - "The service is marked as an interactive service but the system is configured to not allow interactive services"
+- EID: 7040 - Service start type changed
+- EID: 7045 - New windows service
+- EID: 10028 - DCOM failed to communicate with a remote node due to invalid creds or invalid WMI namespace
+
+## Microsoft-Windows-Sysmon/Operational
+- EID: 1 - Process Creation
+- EID: 2 - File Creation Timestamp Changed (Possible Timestomping)
+- EID: 3 - Network Connection
+- EID: 4 - Sysmon Service State Changed
+- EID: 5 - Process Terminated
+- EID: 6 - Driver Loaded
+- EID: 7 - Image Loaded
+- EID: 8 - Remote Thread Created (Possible Code Injection)
+- EID: 9 - Raw Access Read
+- EID: 10 - Process Access
+- EID: 11 - File Creation or Overwrite
+- EID: 12 - Registry Object Created/Deletion
+- EID: 13 - Registry Value Set
+- EID: 14 - Registry Key or Value Rename
+- EID: 15 - Alternate Data Stream Created
+- EID: 16 - Sysmon Service Configuration Changed
+- EID: 17 - Named Pipe Created
+- EID: 18 - Named Pipe Connection
+- EID: 19 - WmiEventFilter Activity
+- EID: 20 - WmiEventConsumer Activity
+- EID: 21 - WmiEventConsumerToFilter Activity
+- EID: 22 - DNS Query
+- EID: 23 - Deleted File Archived
+- EID: 24 - Clipboard Changed
+- EID: 25 - Process Tampering (Possible Process Hollowing or Herpaderping)
+- EID: 26 - File Deleted
+- EID: 27 - Executable File Write Blocked
+- EID: 255 - Sysmon Error
+
+## Microsoft-Windows-Windows Defender/Operational
+- EID: 1005 - Scan failed
+- EID: 1006 - Detected malware
+- EID: 1008 - Action on malware failed
+- EID: 1010 - Failed to remove item from quarantine
+- EID: 2001 - Failed to update signatures
+- EID: 2003 - Failed to update engine
+- EID: 2004 - Reverting to last known good set of signatures
+- EID: 3002 - Real-time protection failed
+- EID: 5008 - Unexpected error
+
+## Microsoft-Windows-PowerShell/Operational
+- EID: 4103 - Module logging - Executing Pipeline
+- EID: 4104 - Script Block Logging
+- EID: 4105 - CommandStart started
+- EID: 4106 - CommandStart stopped
+
+## Microsoft-Windows-WinRM/Operational
+- EID: 6 - Creating WSMan session on client
+- EID: 81 - Processing client request for operation CreateShell
+- EID: 82 - Entering the plugin for operation CreateShell with a ResourceURI
+- EID: 134 - Sending response for operation CreateShell
+- EID: 169 - Creating WSMan session on server
+
+## Microsoft-Windows-TerminalServices-LocalSessionManager/Operational
+- EID: 21 - Shell start notification received
+- EID: 23 - Session logoff
+- EID: 24 - Session disconnected
+
+## Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational
+- EID: 1149 - User authentication
+
+## Microsoft-Windows-Bits-Client/Operational
+- EID: 3 - Bits client job created 
+- EID: 59: Bits client transfer job started
+
+## Microsoft-Windows-TaskScheduler/Operational
+- EID: 106 - Task scheduled
+
+## Microsoft-Windows-Application-Experience/Program-Inventory
+- EID: 800 - Summary of software activities
+- EID: 903 - New application installed
+- EID: 904 - New application installed
+- EID: 905 - Updated application
+- EID: 906 - Updated application
+- EID: 907 - Removed application
+- EID: 908 - Removed application
+
+## Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
+- EID: 2004 - Firewall rule add
+- EID: 2005 - Firewall rule change
+- EID: 2006 - Firewall rule deleted
+- EID: 2033 - Firewall rule deleted
+- EID: 2009 - Firewall failed to load Group Policy
